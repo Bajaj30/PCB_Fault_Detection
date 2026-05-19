@@ -1,0 +1,49 @@
+{
+  "defects": [
+    {
+      "type": "BREAK",
+      "trace_id": 1,
+      "bbox": [
+        108,
+        93,
+        566,
+        38
+      ],
+      "center": [
+        366,
+        111
+      ],
+      "missing_pct": 4.7,
+      "segments": 2
+    },
+    {
+      "type": "SHORT",
+      "bbox": [
+        309,
+        398,
+        15,
+        88
+      ],
+      "center": [
+        316,
+        441
+      ],
+      "area_px": 1320,
+      "bridges_traces": [
+        4,
+        5
+      ]
+    }
+  ],
+  "confidence": {
+    "precision": 94.9,
+    "recall": 97.8,
+    "f1_score": 96.3,
+    "iou": 92.9,
+    "gt_copper_px": 73868,
+    "cam_copper_px": 76721,
+    "correct_px": 72815,
+    "missing_px": 1621,
+    "extra_px": 3906
+  }
+}
